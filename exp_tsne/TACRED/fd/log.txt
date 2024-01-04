@@ -1,0 +1,212 @@
+06/20/2023 06:40:20 - INFO - __main__ - hyper-parameter configurations:
+06/20/2023 06:40:20 - INFO - __main__ - {'mode': 'fd', 'mu': 0.1, 'gpu': 1, 'dataname': 'TACRED', 'task_name': 'TACRED', 'max_length': 256, 'this_name': 'continual', 'device': device(type='cuda'), 'batch_size': 32, 'learning_rate': 1e-05, 'cls_lr': 0.0001, 'total_round': 5, 'rel_per_task': 4, 'pattern': 'entity_marker', 'encoder_output_size': 768, 'vocab_size': 30522, 'marker_size': 4, 'temp': 0.1, 'feat_dim': 64, 'kl_temp': 10, 'num_workers': 0, 'step1_epochs': 10, 'step2_epochs': 10, 'seed': 2021, 'max_grad_norm': 10, 'num_protos': 10, 'optim': 'adam', 'data_path': 'datasets/', 'bert_path': 'datasets/bert-base-uncased', 'n_gpu': 3, 'output_dir': 'exp_tsne/TACRED/fd'}
+06/20/2023 06:40:22 - INFO - numexpr.utils - Note: detected 80 virtual cores but NumExpr set to maximum of 64, check "NUMEXPR_MAX_THREADS" environment variable.
+06/20/2023 06:40:22 - INFO - numexpr.utils - Note: NumExpr detected 80 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+06/20/2023 06:40:22 - INFO - numexpr.utils - NumExpr defaulting to 8 threads.
+06/20/2023 06:44:24 - INFO - tsne.ce_manager - Restart Num 4
+06/20/2023 06:44:24 - INFO - tsne.ce_manager - task--1:
+06/20/2023 06:44:24 - INFO - tsne.ce_manager - current test acc:0.972972972972973
+06/20/2023 06:44:24 - INFO - tsne.ce_manager - history test acc:0.972972972972973
+06/20/2023 06:44:24 - INFO - tsne.ce_manager - [0.972972972972973]
+06/20/2023 06:44:24 - INFO - tsne.ce_manager - [0.972972972972973]
+06/20/2023 06:47:18 - INFO - tsne.ce_manager - Restart Num 4
+06/20/2023 06:47:18 - INFO - tsne.ce_manager - task--2:
+06/20/2023 06:47:18 - INFO - tsne.ce_manager - current test acc:0.9252336448598131
+06/20/2023 06:47:18 - INFO - tsne.ce_manager - history test acc:0.8862745098039215
+06/20/2023 06:47:18 - INFO - tsne.ce_manager - [0.972972972972973, 0.9252336448598131]
+06/20/2023 06:47:18 - INFO - tsne.ce_manager - [0.972972972972973, 0.8862745098039215]
+06/20/2023 06:51:03 - INFO - tsne.ce_manager - Restart Num 4
+06/20/2023 06:51:03 - INFO - tsne.ce_manager - task--3:
+06/20/2023 06:51:03 - INFO - tsne.ce_manager - current test acc:0.8767123287671232
+06/20/2023 06:51:03 - INFO - tsne.ce_manager - history test acc:0.8204488778054863
+06/20/2023 06:51:03 - INFO - tsne.ce_manager - [0.972972972972973, 0.9252336448598131, 0.8767123287671232]
+06/20/2023 06:51:03 - INFO - tsne.ce_manager - [0.972972972972973, 0.8862745098039215, 0.8204488778054863]
+06/20/2023 06:55:32 - INFO - tsne.ce_manager - Restart Num 4
+06/20/2023 06:55:32 - INFO - tsne.ce_manager - task--4:
+06/20/2023 06:55:32 - INFO - tsne.ce_manager - current test acc:0.937984496124031
+06/20/2023 06:55:32 - INFO - tsne.ce_manager - history test acc:0.7924528301886793
+06/20/2023 06:55:32 - INFO - tsne.ce_manager - [0.972972972972973, 0.9252336448598131, 0.8767123287671232, 0.937984496124031]
+06/20/2023 06:55:32 - INFO - tsne.ce_manager - [0.972972972972973, 0.8862745098039215, 0.8204488778054863, 0.7924528301886793]
+06/20/2023 06:59:22 - INFO - tsne.ce_manager - Restart Num 4
+06/20/2023 06:59:22 - INFO - tsne.ce_manager - task--5:
+06/20/2023 06:59:22 - INFO - tsne.ce_manager - current test acc:0.7611940298507462
+06/20/2023 06:59:22 - INFO - tsne.ce_manager - history test acc:0.7605421686746988
+06/20/2023 06:59:22 - INFO - tsne.ce_manager - [0.972972972972973, 0.9252336448598131, 0.8767123287671232, 0.937984496124031, 0.7611940298507462]
+06/20/2023 06:59:22 - INFO - tsne.ce_manager - [0.972972972972973, 0.8862745098039215, 0.8204488778054863, 0.7924528301886793, 0.7605421686746988]
+06/20/2023 07:03:13 - INFO - tsne.ce_manager - Restart Num 4
+06/20/2023 07:03:13 - INFO - tsne.ce_manager - task--6:
+06/20/2023 07:03:13 - INFO - tsne.ce_manager - current test acc:0.762589928057554
+06/20/2023 07:03:13 - INFO - tsne.ce_manager - history test acc:0.7397260273972602
+06/20/2023 07:03:13 - INFO - tsne.ce_manager - [0.972972972972973, 0.9252336448598131, 0.8767123287671232, 0.937984496124031, 0.7611940298507462, 0.762589928057554]
+06/20/2023 07:03:13 - INFO - tsne.ce_manager - [0.972972972972973, 0.8862745098039215, 0.8204488778054863, 0.7924528301886793, 0.7605421686746988, 0.7397260273972602]
+06/20/2023 07:07:21 - INFO - tsne.ce_manager - Restart Num 4
+06/20/2023 07:07:21 - INFO - tsne.ce_manager - task--7:
+06/20/2023 07:07:21 - INFO - tsne.ce_manager - current test acc:0.9682539682539683
+06/20/2023 07:07:21 - INFO - tsne.ce_manager - history test acc:0.751345532831001
+06/20/2023 07:07:21 - INFO - tsne.ce_manager - [0.972972972972973, 0.9252336448598131, 0.8767123287671232, 0.937984496124031, 0.7611940298507462, 0.762589928057554, 0.9682539682539683]
+06/20/2023 07:07:21 - INFO - tsne.ce_manager - [0.972972972972973, 0.8862745098039215, 0.8204488778054863, 0.7924528301886793, 0.7605421686746988, 0.7397260273972602, 0.751345532831001]
+06/20/2023 07:10:44 - INFO - tsne.ce_manager - Restart Num 4
+06/20/2023 07:10:44 - INFO - tsne.ce_manager - task--8:
+06/20/2023 07:10:44 - INFO - tsne.ce_manager - current test acc:0.8369565217391305
+06/20/2023 07:10:44 - INFO - tsne.ce_manager - history test acc:0.7482859941234085
+06/20/2023 07:10:44 - INFO - tsne.ce_manager - [0.972972972972973, 0.9252336448598131, 0.8767123287671232, 0.937984496124031, 0.7611940298507462, 0.762589928057554, 0.9682539682539683, 0.8369565217391305]
+06/20/2023 07:10:44 - INFO - tsne.ce_manager - [0.972972972972973, 0.8862745098039215, 0.8204488778054863, 0.7924528301886793, 0.7605421686746988, 0.7397260273972602, 0.751345532831001, 0.7482859941234085]
+06/20/2023 07:14:45 - INFO - tsne.ce_manager - Restart Num 4
+06/20/2023 07:14:45 - INFO - tsne.ce_manager - task--9:
+06/20/2023 07:14:45 - INFO - tsne.ce_manager - current test acc:0.9663865546218487
+06/20/2023 07:14:45 - INFO - tsne.ce_manager - history test acc:0.7587719298245614
+06/20/2023 07:14:45 - INFO - tsne.ce_manager - [0.972972972972973, 0.9252336448598131, 0.8767123287671232, 0.937984496124031, 0.7611940298507462, 0.762589928057554, 0.9682539682539683, 0.8369565217391305, 0.9663865546218487]
+06/20/2023 07:14:45 - INFO - tsne.ce_manager - [0.972972972972973, 0.8862745098039215, 0.8204488778054863, 0.7924528301886793, 0.7605421686746988, 0.7397260273972602, 0.751345532831001, 0.7482859941234085, 0.7587719298245614]
+06/20/2023 07:19:25 - INFO - tsne.ce_manager - Restart Num 4
+06/20/2023 07:19:25 - INFO - tsne.ce_manager - task--10:
+06/20/2023 07:19:25 - INFO - tsne.ce_manager - current test acc:0.8403361344537815
+06/20/2023 07:19:25 - INFO - tsne.ce_manager - history test acc:0.7434471803018269
+06/20/2023 07:19:25 - INFO - tsne.ce_manager - [0.972972972972973, 0.9252336448598131, 0.8767123287671232, 0.937984496124031, 0.7611940298507462, 0.762589928057554, 0.9682539682539683, 0.8369565217391305, 0.9663865546218487, 0.8403361344537815]
+06/20/2023 07:19:25 - INFO - tsne.ce_manager - [0.972972972972973, 0.8862745098039215, 0.8204488778054863, 0.7924528301886793, 0.7605421686746988, 0.7397260273972602, 0.751345532831001, 0.7482859941234085, 0.7587719298245614, 0.7434471803018269]
+06/20/2023 07:19:25 - INFO - tsne.ce_manager - average test acc: [0.97297297 0.88627451 0.82044888 0.79245283 0.76054217 0.73972603
+ 0.75134553 0.74828599 0.75877193 0.74344718]
+06/20/2023 08:06:55 - INFO - __main__ - hyper-parameter configurations:
+06/20/2023 08:06:55 - INFO - __main__ - {'mode': 'fd', 'mu': 0.1, 'gpu': 1, 'dataname': 'TACRED', 'task_name': 'TACRED', 'max_length': 256, 'this_name': 'continual', 'device': device(type='cuda'), 'batch_size': 32, 'learning_rate': 1e-05, 'cls_lr': 0.0001, 'total_round': 5, 'rel_per_task': 4, 'pattern': 'entity_marker', 'encoder_output_size': 768, 'vocab_size': 30522, 'marker_size': 4, 'temp': 0.1, 'feat_dim': 64, 'kl_temp': 10, 'num_workers': 0, 'step1_epochs': 10, 'step2_epochs': 10, 'seed': 2021, 'max_grad_norm': 10, 'num_protos': 10, 'optim': 'adam', 'data_path': 'datasets/', 'bert_path': 'datasets/bert-base-uncased', 'n_gpu': 3, 'output_dir': 'exp_tsne/TACRED/fd'}
+06/20/2023 08:06:59 - INFO - numexpr.utils - Note: detected 80 virtual cores but NumExpr set to maximum of 64, check "NUMEXPR_MAX_THREADS" environment variable.
+06/20/2023 08:06:59 - INFO - numexpr.utils - Note: NumExpr detected 80 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+06/20/2023 08:06:59 - INFO - numexpr.utils - NumExpr defaulting to 8 threads.
+06/20/2023 08:11:25 - INFO - tsne.ce_manager - Restart Num 4
+06/20/2023 08:11:25 - INFO - tsne.ce_manager - task--1:
+06/20/2023 08:11:25 - INFO - tsne.ce_manager - current test acc:0.972972972972973
+06/20/2023 08:11:25 - INFO - tsne.ce_manager - history test acc:0.972972972972973
+06/20/2023 08:11:25 - INFO - tsne.ce_manager - [0.972972972972973]
+06/20/2023 08:11:25 - INFO - tsne.ce_manager - [0.972972972972973]
+06/20/2023 08:14:33 - INFO - tsne.ce_manager - Restart Num 4
+06/20/2023 08:14:33 - INFO - tsne.ce_manager - task--2:
+06/20/2023 08:14:33 - INFO - tsne.ce_manager - current test acc:0.9252336448598131
+06/20/2023 08:14:33 - INFO - tsne.ce_manager - history test acc:0.8862745098039215
+06/20/2023 08:14:33 - INFO - tsne.ce_manager - [0.972972972972973, 0.9252336448598131]
+06/20/2023 08:14:33 - INFO - tsne.ce_manager - [0.972972972972973, 0.8862745098039215]
+06/20/2023 08:18:23 - INFO - tsne.ce_manager - Restart Num 4
+06/20/2023 08:18:23 - INFO - tsne.ce_manager - task--3:
+06/20/2023 08:18:23 - INFO - tsne.ce_manager - current test acc:0.8767123287671232
+06/20/2023 08:18:23 - INFO - tsne.ce_manager - history test acc:0.8204488778054863
+06/20/2023 08:18:23 - INFO - tsne.ce_manager - [0.972972972972973, 0.9252336448598131, 0.8767123287671232]
+06/20/2023 08:18:23 - INFO - tsne.ce_manager - [0.972972972972973, 0.8862745098039215, 0.8204488778054863]
+06/20/2023 08:23:01 - INFO - tsne.ce_manager - Restart Num 4
+06/20/2023 08:23:01 - INFO - tsne.ce_manager - task--4:
+06/20/2023 08:23:01 - INFO - tsne.ce_manager - current test acc:0.937984496124031
+06/20/2023 08:23:01 - INFO - tsne.ce_manager - history test acc:0.7924528301886793
+06/20/2023 08:23:01 - INFO - tsne.ce_manager - [0.972972972972973, 0.9252336448598131, 0.8767123287671232, 0.937984496124031]
+06/20/2023 08:23:01 - INFO - tsne.ce_manager - [0.972972972972973, 0.8862745098039215, 0.8204488778054863, 0.7924528301886793]
+06/20/2023 08:26:55 - INFO - tsne.ce_manager - Restart Num 4
+06/20/2023 08:26:55 - INFO - tsne.ce_manager - task--5:
+06/20/2023 08:26:55 - INFO - tsne.ce_manager - current test acc:0.7611940298507462
+06/20/2023 08:26:55 - INFO - tsne.ce_manager - history test acc:0.7605421686746988
+06/20/2023 08:26:55 - INFO - tsne.ce_manager - [0.972972972972973, 0.9252336448598131, 0.8767123287671232, 0.937984496124031, 0.7611940298507462]
+06/20/2023 08:26:55 - INFO - tsne.ce_manager - [0.972972972972973, 0.8862745098039215, 0.8204488778054863, 0.7924528301886793, 0.7605421686746988]
+06/20/2023 08:30:47 - INFO - tsne.ce_manager - Restart Num 4
+06/20/2023 08:30:47 - INFO - tsne.ce_manager - task--6:
+06/20/2023 08:30:47 - INFO - tsne.ce_manager - current test acc:0.762589928057554
+06/20/2023 08:30:47 - INFO - tsne.ce_manager - history test acc:0.7397260273972602
+06/20/2023 08:30:47 - INFO - tsne.ce_manager - [0.972972972972973, 0.9252336448598131, 0.8767123287671232, 0.937984496124031, 0.7611940298507462, 0.762589928057554]
+06/20/2023 08:30:47 - INFO - tsne.ce_manager - [0.972972972972973, 0.8862745098039215, 0.8204488778054863, 0.7924528301886793, 0.7605421686746988, 0.7397260273972602]
+06/20/2023 08:34:59 - INFO - tsne.ce_manager - Restart Num 4
+06/20/2023 08:34:59 - INFO - tsne.ce_manager - task--7:
+06/20/2023 08:34:59 - INFO - tsne.ce_manager - current test acc:0.9682539682539683
+06/20/2023 08:34:59 - INFO - tsne.ce_manager - history test acc:0.751345532831001
+06/20/2023 08:34:59 - INFO - tsne.ce_manager - [0.972972972972973, 0.9252336448598131, 0.8767123287671232, 0.937984496124031, 0.7611940298507462, 0.762589928057554, 0.9682539682539683]
+06/20/2023 08:34:59 - INFO - tsne.ce_manager - [0.972972972972973, 0.8862745098039215, 0.8204488778054863, 0.7924528301886793, 0.7605421686746988, 0.7397260273972602, 0.751345532831001]
+06/20/2023 08:38:37 - INFO - tsne.ce_manager - Restart Num 4
+06/20/2023 08:38:37 - INFO - tsne.ce_manager - task--8:
+06/20/2023 08:38:37 - INFO - tsne.ce_manager - current test acc:0.8369565217391305
+06/20/2023 08:38:37 - INFO - tsne.ce_manager - history test acc:0.7482859941234085
+06/20/2023 08:38:37 - INFO - tsne.ce_manager - [0.972972972972973, 0.9252336448598131, 0.8767123287671232, 0.937984496124031, 0.7611940298507462, 0.762589928057554, 0.9682539682539683, 0.8369565217391305]
+06/20/2023 08:38:37 - INFO - tsne.ce_manager - [0.972972972972973, 0.8862745098039215, 0.8204488778054863, 0.7924528301886793, 0.7605421686746988, 0.7397260273972602, 0.751345532831001, 0.7482859941234085]
+06/20/2023 08:42:54 - INFO - tsne.ce_manager - Restart Num 4
+06/20/2023 08:42:54 - INFO - tsne.ce_manager - task--9:
+06/20/2023 08:42:54 - INFO - tsne.ce_manager - current test acc:0.9663865546218487
+06/20/2023 08:42:54 - INFO - tsne.ce_manager - history test acc:0.7587719298245614
+06/20/2023 08:42:54 - INFO - tsne.ce_manager - [0.972972972972973, 0.9252336448598131, 0.8767123287671232, 0.937984496124031, 0.7611940298507462, 0.762589928057554, 0.9682539682539683, 0.8369565217391305, 0.9663865546218487]
+06/20/2023 08:42:54 - INFO - tsne.ce_manager - [0.972972972972973, 0.8862745098039215, 0.8204488778054863, 0.7924528301886793, 0.7605421686746988, 0.7397260273972602, 0.751345532831001, 0.7482859941234085, 0.7587719298245614]
+06/20/2023 08:47:43 - INFO - tsne.ce_manager - Restart Num 4
+06/20/2023 08:47:43 - INFO - tsne.ce_manager - task--10:
+06/20/2023 08:47:43 - INFO - tsne.ce_manager - current test acc:0.8403361344537815
+06/20/2023 08:47:43 - INFO - tsne.ce_manager - history test acc:0.7434471803018269
+06/20/2023 08:47:43 - INFO - tsne.ce_manager - [0.972972972972973, 0.9252336448598131, 0.8767123287671232, 0.937984496124031, 0.7611940298507462, 0.762589928057554, 0.9682539682539683, 0.8369565217391305, 0.9663865546218487, 0.8403361344537815]
+06/20/2023 08:47:43 - INFO - tsne.ce_manager - [0.972972972972973, 0.8862745098039215, 0.8204488778054863, 0.7924528301886793, 0.7605421686746988, 0.7397260273972602, 0.751345532831001, 0.7482859941234085, 0.7587719298245614, 0.7434471803018269]
+06/20/2023 08:47:43 - INFO - tsne.ce_manager - average test acc: [0.97297297 0.88627451 0.82044888 0.79245283 0.76054217 0.73972603
+ 0.75134553 0.74828599 0.75877193 0.74344718]
+06/20/2023 09:29:37 - INFO - __main__ - hyper-parameter configurations:
+06/20/2023 09:29:37 - INFO - __main__ - {'mode': 'fd', 'mu': 0.1, 'gpu': 1, 'dataname': 'TACRED', 'task_name': 'TACRED', 'max_length': 256, 'this_name': 'continual', 'device': device(type='cuda'), 'batch_size': 32, 'learning_rate': 1e-05, 'cls_lr': 0.0001, 'total_round': 5, 'rel_per_task': 4, 'pattern': 'entity_marker', 'encoder_output_size': 768, 'vocab_size': 30522, 'marker_size': 4, 'temp': 0.1, 'feat_dim': 64, 'kl_temp': 10, 'num_workers': 0, 'step1_epochs': 10, 'step2_epochs': 10, 'seed': 2021, 'max_grad_norm': 10, 'num_protos': 10, 'optim': 'adam', 'data_path': 'datasets/', 'bert_path': 'datasets/bert-base-uncased', 'n_gpu': 3, 'output_dir': 'exp_tsne/TACRED/fd'}
+06/20/2023 09:29:40 - INFO - numexpr.utils - Note: detected 80 virtual cores but NumExpr set to maximum of 64, check "NUMEXPR_MAX_THREADS" environment variable.
+06/20/2023 09:29:40 - INFO - numexpr.utils - Note: NumExpr detected 80 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+06/20/2023 09:29:40 - INFO - numexpr.utils - NumExpr defaulting to 8 threads.
+06/20/2023 09:33:40 - INFO - tsne.ce_manager - Restart Num 4
+06/20/2023 09:33:40 - INFO - tsne.ce_manager - task--1:
+06/20/2023 09:33:40 - INFO - tsne.ce_manager - current test acc:0.972972972972973
+06/20/2023 09:33:40 - INFO - tsne.ce_manager - history test acc:0.972972972972973
+06/20/2023 09:33:40 - INFO - tsne.ce_manager - [0.972972972972973]
+06/20/2023 09:33:40 - INFO - tsne.ce_manager - [0.972972972972973]
+06/20/2023 09:38:59 - INFO - __main__ - hyper-parameter configurations:
+06/20/2023 09:38:59 - INFO - __main__ - {'mode': 'fd', 'mu': 0.1, 'gpu': 1, 'dataname': 'TACRED', 'task_name': 'TACRED', 'max_length': 256, 'this_name': 'continual', 'device': device(type='cuda'), 'batch_size': 32, 'learning_rate': 1e-05, 'cls_lr': 0.0001, 'total_round': 5, 'rel_per_task': 4, 'pattern': 'entity_marker', 'encoder_output_size': 768, 'vocab_size': 30522, 'marker_size': 4, 'temp': 0.1, 'feat_dim': 64, 'kl_temp': 10, 'num_workers': 0, 'step1_epochs': 10, 'step2_epochs': 10, 'seed': 2021, 'max_grad_norm': 10, 'num_protos': 10, 'optim': 'adam', 'data_path': 'datasets/', 'bert_path': 'datasets/bert-base-uncased', 'n_gpu': 3, 'output_dir': 'exp_tsne/TACRED/fd'}
+06/20/2023 09:39:02 - INFO - numexpr.utils - Note: detected 80 virtual cores but NumExpr set to maximum of 64, check "NUMEXPR_MAX_THREADS" environment variable.
+06/20/2023 09:39:02 - INFO - numexpr.utils - Note: NumExpr detected 80 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+06/20/2023 09:39:02 - INFO - numexpr.utils - NumExpr defaulting to 8 threads.
+06/20/2023 09:43:10 - INFO - tsne.ce_manager - Restart Num 4
+06/20/2023 09:43:10 - INFO - tsne.ce_manager - task--1:
+06/20/2023 09:43:10 - INFO - tsne.ce_manager - current test acc:0.972972972972973
+06/20/2023 09:43:10 - INFO - tsne.ce_manager - history test acc:0.972972972972973
+06/20/2023 09:43:10 - INFO - tsne.ce_manager - [0.972972972972973]
+06/20/2023 09:43:10 - INFO - tsne.ce_manager - [0.972972972972973]
+06/20/2023 09:46:21 - INFO - tsne.ce_manager - Restart Num 4
+06/20/2023 09:46:21 - INFO - tsne.ce_manager - task--2:
+06/20/2023 09:46:21 - INFO - tsne.ce_manager - current test acc:0.9252336448598131
+06/20/2023 09:46:21 - INFO - tsne.ce_manager - history test acc:0.8862745098039215
+06/20/2023 09:46:21 - INFO - tsne.ce_manager - [0.972972972972973, 0.9252336448598131]
+06/20/2023 09:46:21 - INFO - tsne.ce_manager - [0.972972972972973, 0.8862745098039215]
+06/20/2023 09:50:27 - INFO - tsne.ce_manager - Restart Num 4
+06/20/2023 09:50:27 - INFO - tsne.ce_manager - task--3:
+06/20/2023 09:50:27 - INFO - tsne.ce_manager - current test acc:0.8767123287671232
+06/20/2023 09:50:27 - INFO - tsne.ce_manager - history test acc:0.8204488778054863
+06/20/2023 09:50:27 - INFO - tsne.ce_manager - [0.972972972972973, 0.9252336448598131, 0.8767123287671232]
+06/20/2023 09:50:27 - INFO - tsne.ce_manager - [0.972972972972973, 0.8862745098039215, 0.8204488778054863]
+06/20/2023 09:55:33 - INFO - tsne.ce_manager - Restart Num 4
+06/20/2023 09:55:33 - INFO - tsne.ce_manager - task--4:
+06/20/2023 09:55:33 - INFO - tsne.ce_manager - current test acc:0.937984496124031
+06/20/2023 09:55:33 - INFO - tsne.ce_manager - history test acc:0.7924528301886793
+06/20/2023 09:55:33 - INFO - tsne.ce_manager - [0.972972972972973, 0.9252336448598131, 0.8767123287671232, 0.937984496124031]
+06/20/2023 09:55:33 - INFO - tsne.ce_manager - [0.972972972972973, 0.8862745098039215, 0.8204488778054863, 0.7924528301886793]
+06/20/2023 09:59:55 - INFO - tsne.ce_manager - Restart Num 4
+06/20/2023 09:59:55 - INFO - tsne.ce_manager - task--5:
+06/20/2023 09:59:55 - INFO - tsne.ce_manager - current test acc:0.7611940298507462
+06/20/2023 09:59:55 - INFO - tsne.ce_manager - history test acc:0.7605421686746988
+06/20/2023 09:59:55 - INFO - tsne.ce_manager - [0.972972972972973, 0.9252336448598131, 0.8767123287671232, 0.937984496124031, 0.7611940298507462]
+06/20/2023 09:59:55 - INFO - tsne.ce_manager - [0.972972972972973, 0.8862745098039215, 0.8204488778054863, 0.7924528301886793, 0.7605421686746988]
+06/20/2023 10:04:27 - INFO - tsne.ce_manager - Restart Num 4
+06/20/2023 10:04:27 - INFO - tsne.ce_manager - task--6:
+06/20/2023 10:04:27 - INFO - tsne.ce_manager - current test acc:0.762589928057554
+06/20/2023 10:04:27 - INFO - tsne.ce_manager - history test acc:0.7397260273972602
+06/20/2023 10:04:27 - INFO - tsne.ce_manager - [0.972972972972973, 0.9252336448598131, 0.8767123287671232, 0.937984496124031, 0.7611940298507462, 0.762589928057554]
+06/20/2023 10:04:27 - INFO - tsne.ce_manager - [0.972972972972973, 0.8862745098039215, 0.8204488778054863, 0.7924528301886793, 0.7605421686746988, 0.7397260273972602]
+06/20/2023 10:09:12 - INFO - tsne.ce_manager - Restart Num 4
+06/20/2023 10:09:12 - INFO - tsne.ce_manager - task--7:
+06/20/2023 10:09:12 - INFO - tsne.ce_manager - current test acc:0.9682539682539683
+06/20/2023 10:09:12 - INFO - tsne.ce_manager - history test acc:0.751345532831001
+06/20/2023 10:09:12 - INFO - tsne.ce_manager - [0.972972972972973, 0.9252336448598131, 0.8767123287671232, 0.937984496124031, 0.7611940298507462, 0.762589928057554, 0.9682539682539683]
+06/20/2023 10:09:12 - INFO - tsne.ce_manager - [0.972972972972973, 0.8862745098039215, 0.8204488778054863, 0.7924528301886793, 0.7605421686746988, 0.7397260273972602, 0.751345532831001]
+06/20/2023 10:13:00 - INFO - tsne.ce_manager - Restart Num 4
+06/20/2023 10:13:00 - INFO - tsne.ce_manager - task--8:
+06/20/2023 10:13:00 - INFO - tsne.ce_manager - current test acc:0.8369565217391305
+06/20/2023 10:13:00 - INFO - tsne.ce_manager - history test acc:0.7482859941234085
+06/20/2023 10:13:00 - INFO - tsne.ce_manager - [0.972972972972973, 0.9252336448598131, 0.8767123287671232, 0.937984496124031, 0.7611940298507462, 0.762589928057554, 0.9682539682539683, 0.8369565217391305]
+06/20/2023 10:13:00 - INFO - tsne.ce_manager - [0.972972972972973, 0.8862745098039215, 0.8204488778054863, 0.7924528301886793, 0.7605421686746988, 0.7397260273972602, 0.751345532831001, 0.7482859941234085]
+06/20/2023 10:17:29 - INFO - tsne.ce_manager - Restart Num 4
+06/20/2023 10:17:29 - INFO - tsne.ce_manager - task--9:
+06/20/2023 10:17:29 - INFO - tsne.ce_manager - current test acc:0.9663865546218487
+06/20/2023 10:17:29 - INFO - tsne.ce_manager - history test acc:0.7587719298245614
+06/20/2023 10:17:29 - INFO - tsne.ce_manager - [0.972972972972973, 0.9252336448598131, 0.8767123287671232, 0.937984496124031, 0.7611940298507462, 0.762589928057554, 0.9682539682539683, 0.8369565217391305, 0.9663865546218487]
+06/20/2023 10:17:29 - INFO - tsne.ce_manager - [0.972972972972973, 0.8862745098039215, 0.8204488778054863, 0.7924528301886793, 0.7605421686746988, 0.7397260273972602, 0.751345532831001, 0.7482859941234085, 0.7587719298245614]
+06/20/2023 10:22:37 - INFO - tsne.ce_manager - Restart Num 4
+06/20/2023 10:22:37 - INFO - tsne.ce_manager - task--10:
+06/20/2023 10:22:37 - INFO - tsne.ce_manager - current test acc:0.8403361344537815
+06/20/2023 10:22:37 - INFO - tsne.ce_manager - history test acc:0.7434471803018269
+06/20/2023 10:22:37 - INFO - tsne.ce_manager - [0.972972972972973, 0.9252336448598131, 0.8767123287671232, 0.937984496124031, 0.7611940298507462, 0.762589928057554, 0.9682539682539683, 0.8369565217391305, 0.9663865546218487, 0.8403361344537815]
+06/20/2023 10:22:37 - INFO - tsne.ce_manager - [0.972972972972973, 0.8862745098039215, 0.8204488778054863, 0.7924528301886793, 0.7605421686746988, 0.7397260273972602, 0.751345532831001, 0.7482859941234085, 0.7587719298245614, 0.7434471803018269]
+06/20/2023 10:22:37 - INFO - tsne.ce_manager - average test acc: [0.97297297 0.88627451 0.82044888 0.79245283 0.76054217 0.73972603
+ 0.75134553 0.74828599 0.75877193 0.74344718]
